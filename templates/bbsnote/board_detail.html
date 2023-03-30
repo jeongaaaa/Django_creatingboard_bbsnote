@@ -15,7 +15,6 @@
     <div class="col-11"> <!-- 본문 -->
         <div class="card">
             <div class="card-body">
-                <!--게시글/댓글 쓸 때 엔터 적용되도록-->
                 <div class="'card-text">{{ board.content|linebreaksbr }}</div>
                 <div class="card-text">{{ board.content }}</div>
                 <div class="d-flex justify-content-end">
@@ -73,7 +72,6 @@
 </div>
 {% endblock %} 
 {% block script %}
-<!--javascript 문법은 문장 끝에 ;(세미콜론) 꼭 붙어줘야 함-->
 <script type="text/javascript">
     $(document).ready(function(){
         $(".delete").on('click', function(){

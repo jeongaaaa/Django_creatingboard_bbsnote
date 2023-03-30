@@ -20,7 +20,6 @@ from bbsnote import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bbsnote/', include('bbsnote.urls')),
-    #common이 common url을 바라볼 수 있도록 추가해줌
     path('common/', include('common.urls')),
     path('', views.index, name='index'),
 ]

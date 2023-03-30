@@ -131,8 +131,5 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#로그인, 로그아웃 성공 했을 때 자동으로 이동할 URL 설정
-#'/'라고 써주면 메인 페이지로 이동
-#bbsnote로 이동하고 싶으면 /bbsnote라고 써주면 됨
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
